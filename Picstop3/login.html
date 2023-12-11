@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: inter, Poppines;
+      background-color: #DEF9FF;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    
+    .picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .login-container {
+      background-color: #DEF9FF;
+      padding: 20px;
+      width: 300px;
+    }
+
+    .login-container h2 {
+      text-align: center;
+    }
+
+    .login-form {
+      margin-top: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .form-group input {
+      width: 120%;
+      height: 20px;
+      border: none;
+      outline: none;
+      padding: 8px;
+      border-radius: 17px;
+    }
+
+    .form-group button {
+      background-color: #2AB9D9;
+      color: #fff;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      padding: 10px;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+      font-weight: bold;
+      width: 50%;  
+    }
+    .keys{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 40px;
+    color: #8C8C8C;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="picture">
+        <img src="Logo.png" class="logo">
+        <img src="Karier.id.png" class="karier">
+    </div>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form class="login-form">
+      <div class="form-group">
+        <label for="username">Masukkan Email</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Masukkan Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="Register">Belum punya akun?</label>
+        <a href="halaman lupa password.html">Lupa Password?</a></label>
+    </div>
+    <div>
+      <a href="Daftar.html">Daftar</a>
+   </div>
+        <div class="form-group">
+          <button  class="btn btn-primary" href="../main menu/Beranda.html" role="button">Masuk
+        </button>
+            <p class="keys">Copyright @4Keys</p>
+          </div>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
